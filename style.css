@@ -12,14 +12,15 @@ body {
 }
 p {
     font-family: 'Arial', sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     text-align: justify;
     line-height: 1.25;
 }
 
 h2 {
-    color: white;
+    color: white !important;
+    font-family: 'Times New Roman', sans-serif;
 }
 .cuadro-de-texto {
     border: 10px solid black;
@@ -37,6 +38,8 @@ h2 {
     width: fit-content;
     padding-left: 25px;
     padding-right: 25px;
+    padding-top: 15px;
+    
 }
 
 .mini-cuadrito-de-texto-2 {
@@ -81,10 +84,55 @@ h2 {
 td {
     font-family: 'Arial', sans-serif;
     color: white;
-    font-size: 24px;
+    border: 2px solid black;
+    vertical-align: middle;
+    font-size: 20px;
     width: 150px;
     text-align: justify;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 30px
+    padding-bottom: 30px;
+}
+
+.cuadrito-azul {
+    border: 10px solid black;
+    background: linear-gradient(to right, rgb(0, 0, 255), rgb(0, 255, 255), rgb(0, 0, 255));
+    border-radius: 20px;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding: 10px;
+}
+
+.lethal {
+    border: 10px solid black;
+    background: rgb(255, 89, 89);
+    border-radius: 20px;
+}
+.main {
+    border: 10px solid black;
+    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(255, 238, 0), rgb(72, 255, 0), rgb(0, 255, 255), rgb(0, 0, 255), rgb(255, 0, 255));
+    border-radius: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 700px;
+}
+
+.col-imagen {
+    width: 120px;
+}
+
+.col-nombre {
+    width: 150px;
+}
+
+.col-descripcion {
+    width: 430px;
+}
+
+.imagen-tabla {
+    width: 90px;
+    height: auto;
 }
