@@ -9,6 +9,7 @@
 
 body {
     background: linear-gradient(to top, rgb(20, 3, 28) , rgb(56, 8, 77), rgb(113, 0, 94));
+    background-attachment: fixed; 
 }
 p {
     font-family: 'Arial', sans-serif;
@@ -106,7 +107,7 @@ td {
 
 .lethal {
     border: 10px solid black;
-    background: rgb(255, 89, 89);
+    background: linear-gradient(to bottom, rgb(255, 129, 129), rgb(168, 19, 19));
     border-radius: 20px;
 }
 .main {
@@ -120,19 +121,30 @@ table {
     width: 700px;
 }
 
-.col-imagen {
-    width: 120px;
-}
-
 .col-nombre {
     width: 150px;
+    font-family: 'Times New Roman', serif;
 }
 
 .col-descripcion {
-    width: 430px;
+    width: 700px;
 }
 
 .imagen-tabla {
     width: 90px;
     height: auto;
+}
+
+.cuadro-negro-clarito {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    width: fit-content;
+    margin: 40px;
+}
+.cuadro-centrado-de-controrno-2 {
+    border: 10px solid black;
+    background: linear-gradient(to top, rgb(73, 11, 27), rgb(177, 27, 89));
+    border-radius: 20px;
+    width: fit-content;
+    padding: 25px; 
 }
