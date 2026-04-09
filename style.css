@@ -8,7 +8,7 @@
 }
 
 body {
-    background: linear-gradient(to top, rgb(20, 3, 28) , rgb(56, 8, 77), rgb(113, 0, 94));
+    background: linear-gradient(to top, rgb(20, 3, 28) , rgb(113, 0, 94));
     background-attachment: fixed; 
 }
 p {
@@ -101,7 +101,7 @@ td {
 
 .cuadrito-azul {
     border: 10px solid black;
-    background: linear-gradient(to right, rgb(0, 0, 255), rgb(0, 255, 255), rgb(0, 0, 255));
+    background: linear-gradient(to right, rgb(0, 0, 100), rgb(0, 0, 255), rgb(0, 0, 100));
     border-radius: 20px;
     width: fit-content;
     padding-left: 25px;
@@ -116,8 +116,35 @@ td {
 }
 .main {
     border: 10px solid black;
-    background: linear-gradient(to bottom, rgb(255, 0, 0), rgb(255, 238, 0), rgb(72, 255, 0), rgb(0, 255, 255), rgb(0, 0, 255), rgb(255, 0, 255));
+    background: linear-gradient(to bottom, rgb(132, 43, 43), rgb(138, 129, 48), rgb(90, 130, 41), rgb(60, 138, 138), rgb(50, 50, 140), rgb(134, 61, 134));
     border-radius: 20px;
+}
+
+.spring {
+    border: 10px solid black;
+    background: linear-gradient(to top, rgb(120, 192, 201), rgb(201, 174, 110), rgb(203, 122, 203));
+    border-radius: 20px;
+}
+
+.halloween {
+    border: 10px solid black;
+    background: linear-gradient(to top, rgb(181, 80, 13), rgb(112, 41, 128));
+    border-radius: 20px;
+}
+
+.christmas {
+    border: 10px solid black;
+    background: linear-gradient(to top, rgb(12, 142, 12), rgb(144, 17, 17));
+    border-radius: 20px;
+}
+.main-half {
+    border-right: 10px solid black;
+    border-top: 10px solid black;
+    border-bottom: 10px solid black;
+    background: linear-gradient(to top, rgb(132, 43, 43), rgb(138, 129, 48), rgb(90, 130, 41), rgb(60, 138, 138), rgb(50, 50, 140), rgb(134, 61, 134));
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 50%;
 }
 
 table {
