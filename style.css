@@ -194,5 +194,19 @@ table {
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 25px;
+}
 
+.cuadro-centrado-de-contorno-4 {
+    border: 10px solid black;
+    background: linear-gradient(to top, rgb(38, 8, 8),rgb(34, 12, 12));
+    border-radius: 20px;
+    width: fit-content;
+    padding-left: 25px;
+    padding-right: 25px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 30px;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    margin-bottom: 30px;
 }
